@@ -21,8 +21,11 @@ group :assets do
 end
 
 group :test do
-  gem 'rspec-rails'
+	gem 'rspec-rails'
+	gem 'factory_girl_rails'
+	gem 'database_cleaner'
 end
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
